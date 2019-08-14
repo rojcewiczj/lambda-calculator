@@ -21,7 +21,7 @@ import { numbers } from "../../../data.js";
        it any props needed by the child component*/
        }
        {numbers.map(number => 
-       <NumberButton number={number} />)}
+       <NumberButton number={number} addNumber ={props.addNumber}/>)}
 
     </div>
   );
