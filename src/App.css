@@ -1,0 +1,59 @@
+* {
+    border: 1px solid gray;
+}
+
+.container {
+    width: 400px;
+}
+.display {
+    width: 380px;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    border-radius: 20%;
+   
+}
+.App {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+    
+}
+.bottom {
+    display: flex;
+    width: 400px;
+    height: 390px;
+}
+.Numbers {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+.NumberButton {
+    background-color: blue;
+    width: 70px;
+    
+}
+.Specials {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.specialButton {
+    display: flex;
+    }
+    .Operators {
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+        height: 400px;
+        justify-content: space-around;
+       
+    }
