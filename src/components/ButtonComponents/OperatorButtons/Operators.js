@@ -15,7 +15,7 @@ import { operators } from "../../../data.js";
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
         {operators.map(operator => 
-       <OperatorButton operator={operator} />)}
+       <OperatorButton operator={operator} addOperator = {props.addOperator} />)}
     </div>
   );
 };
