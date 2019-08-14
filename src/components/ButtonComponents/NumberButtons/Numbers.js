@@ -13,7 +13,7 @@ import { numbers } from "../../../data.js";
   return ( 
       
 
-    <div>
+    <div className = "Numbers">
       
       
       {/* STEP 3 - Use .map() to iterate over your array data and return a button

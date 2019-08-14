@@ -2,7 +2,7 @@ import React from "react";
 
 const Display = (props) => {
   console.log("Display", props)
-  return <div>
+  return <div className ="display">
    {props.number}
   </div>;
 };
