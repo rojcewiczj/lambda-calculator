@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import Numbers from "./components/ButtonComponents/NumberButtons/Numbers.js"
-import Operator from "./components/ButtonComponents/OperatorButtons/Operators.js";
-import Specials from "./components/ButtonComponents/SpecialButtons/Specials.js";
-import Display from "./components/DisplayComponents/Display"
+//import NumberButton from "./components/ButtonComponents/NumberButtons/NumberButton";
+import Numbers from "./components/ButtonComponents/NumberButtons/Numbers"
+//import OperatorButtons from "./components/ButtonComponents/OperatorButtons/OperatorButton"
+import Operators from "./components/ButtonComponents/OperatorButtons/Operators"
+//import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
-
+import Specials from "./components/ButtonComponents/SpecialButtons/Specials.js"
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
 import { specials } from "./data";
@@ -23,10 +24,14 @@ function App() {
       <Logo />
       <div className="App">
           
-        <Numbers/>
+  
           
           
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+    
+       <Numbers />
+       <Operators />
+       <Specials />
       </div>
     </div>
   );
